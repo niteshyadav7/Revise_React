@@ -44,3 +44,9 @@ step3:consumes the data
 ###     JUST LIKE FUNCTION
 RETURN VALUE
 ```
+
+### DOUBT RTK
+
+```
+### <Provider store={store}>...</Provider>
+```

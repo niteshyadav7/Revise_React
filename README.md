@@ -19,6 +19,13 @@ onChange={(e)=>{
     })
 }}
 
+####
+Cart:
+addItems: (state, action) => {
+        console.log("clicked!");
+      state.items.push(action.payload);
+    },
+
 ### this is for addValue
 if(action.type==='ADDVALUE){
     return{

@@ -28,3 +28,19 @@ if(action.type==='ADDVALUE){
 }
 
 ```
+
+### DOUBT in CONTEXT
+
+```
+### how to start
+step1: create context
+step2:pass through provider value={{xx,sfdr}}
+step3:consumes the data
+```
+
+### Custom Hooks
+
+```
+###     JUST LIKE FUNCTION
+RETURN VALUE
+```

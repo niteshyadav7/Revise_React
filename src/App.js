@@ -1,9 +1,13 @@
-import CounterContext from "./component/Context/CounterContext";
+import { useCounter } from "./component/Hooks/useCounter";
 
 const App = () => {
+  const [state, handlInc] = useCounter();
+
+  // console.log(xyz);
   return (
     <div>
-     <CounterContext />
+      <button onClick={handlInc}>Add</button>
+      <h1>{state}</h1>
     </div>
   );
 };

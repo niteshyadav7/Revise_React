@@ -2,6 +2,7 @@
   "name": "revise_react",
   "version": "1.0.0",
   "description": "Revising React",
+  "type": "module",
   "scripts": {
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html",

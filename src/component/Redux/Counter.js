@@ -31,7 +31,12 @@ const Counter = () => {
           </button>
         </section>
         <section className="flex justify-center">
-          <form>
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              dispatch(addValue(Number(text)));
+            }}
+          >
             <input
               type="number"
               onChange={(e) => {

@@ -1,8 +1,9 @@
+import CounterContext from "./component/Context/CounterContext";
 
 const App = () => {
   return (
     <div>
-     <div>App</div>
+     <CounterContext />
     </div>
   );
 };

@@ -1,0 +1,35 @@
+.cart{
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+ul>li{
+  margin-right: 20px;
+  padding: 5px;
+  margin: 20px;
+}
+
+
+
+.btn {
+  text-align: center;
+}
+.top {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.inner{
+    margin: 20px;
+}
